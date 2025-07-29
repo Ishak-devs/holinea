@@ -1,5 +1,5 @@
 <?php
-
+var_dump ($user['id_utilisateur']);
 //Pour avoir la fonction e()
 require_once "Utils/functions.php";
 //Inclusion du modèle
