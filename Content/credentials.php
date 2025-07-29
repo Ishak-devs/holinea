@@ -1,5 +1,5 @@
 <?php
-$dsn = "pgsql:host=localhost;dbname=nobels";
+$dsn = "pgsql:host=localhost;dbname=holinea";
 $login = "postgres";
 $mdp = "fallyaram";
 ?>

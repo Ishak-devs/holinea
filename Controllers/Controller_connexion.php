@@ -12,7 +12,7 @@ class Controller_connexion extends Controller {
             if (!$mail || !$mdp) {
                 $error = "Tous les champs sont obligatoires !";
             } else {
-                $userModel = new UserModel();
+                $userModel = Model::getModel();
                 $user = $userModel->getByEmail($mail);
                 if ($user && password_verify($mdp, $user['mot_de_passe'])) {
                     $_SESSION['id_utilisateur'] = $user['id_utilisateur'];

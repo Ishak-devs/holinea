@@ -11,7 +11,7 @@
       <p>Connexion à Holinea</p>
     </div>
     <?php if (!empty($error)) { echo "<div class='login-error'>$error</div>"; } ?>
-    <form method="post" action="?page=connexion" autocomplete="on">
+    <form method="post" action="?controller=connexion&action=login" autocomplete="on">
       <label>Email</label>
       <div class="input-group">
         <input type="email" name="mail" required placeholder="Adresse email" class="input-login"/>
@@ -26,7 +26,7 @@
     </form>
     <div class="login-footer">
       <span>Pas encore de compte ?</span>
-      <a href="?page=inscription">Créer un compte</a>
+      <a href="?controller=therapeute&action=signup">Créer un compte</a>
     </div>
   </div>
 </div>

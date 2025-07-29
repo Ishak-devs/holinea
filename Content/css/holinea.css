@@ -352,3 +352,110 @@ footer a {
   .login-box {padding: 24px 8vw;}
   .login-section {min-height: 0; padding: 36px 0;}
 }
+.thera-container {
+  background: #fff;
+  max-width: 500px;
+  margin: 50px auto 40px auto;
+  border-radius: 2rem;
+  box-shadow: 0 6px 36px rgba(242,124,90,0.13);
+  padding: 50px 60px 40px 60px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 700px){
+  .thera-container {
+    padding: 22px 4vw;
+    max-width: 98vw;
+  }
+
+}
+.thera-container h1 {
+  text-align: center;
+  color: #f27c5a;
+  margin-bottom: 26px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #15193a;
+}
+input, select, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #90d7bd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  background: #fafafb;
+  transition: border-color 0.2s;
+}
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: #f27c5a;
+}
+.double-fields {
+  display: flex;
+  gap: 10px;
+}
+.double-fields > div {
+  flex: 1;
+}
+button {
+  width: 100%;
+  background: #f27c5a;
+  color: #fff;
+  padding: 12px 0;
+  border: none;
+  border-radius: 9px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 8px;
+}
+button:hover {
+  background: #15193a;
+}
+.hint {
+  font-size: 0.90em;
+  color: #343439;
+  margin-bottom: 12px;
+  margin-top: -10px;
+}
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.btn.light {
+  background: #ffd447;
+  color: #15193a;
+  padding: 11px 0;
+  border-radius: 9px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn.dark {
+  background: #f27c5a;
+  color: #fff;
+  padding: 11px 0;
+  border-radius: 9px;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+}
+.btn.dark:hover, .btn.light:hover {
+  background: #15193a;
+  color: #fff;
+}
+.form-group {
+  margin-bottom: 16px;
+}
