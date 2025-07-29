@@ -18,8 +18,8 @@ class Controller_connexion extends Controller {
                     $_SESSION['id_utilisateur'] = $user['id_utilisateur'];
                     $_SESSION['nom'] = $user['nom'];
                     $_SESSION['role'] = $user['role_utilisateur'] ?? 'patient';
-                    header("Location: index.php?controller=home&action=index");
-                    
+                    header("Location: index.php?controller=dashboard&action=index");
+
                     exit();
                 } else {
                     $error = "Email ou mot de passe incorrect";

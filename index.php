@@ -1,5 +1,5 @@
 <?php
-var_dump ($user['id_utilisateur']);
+echo "<p>test</p>";
 //Pour avoir la fonction e()
 require_once "Utils/functions.php";
 //Inclusion du modèle
@@ -9,7 +9,7 @@ require_once "Controllers/Controller.php";
 
 //Liste des contrôleurs -- A RENSEIGNER
 $controllers = ["home","connexion", "therapeute"];
-//Nom du contrôleur par défaut-- A RENSEIGNER
+
 $controller_default = "home";
 
 //On teste si le paramètre controller existe et correspond à un contrôleur de la liste $controllers
@@ -33,3 +33,4 @@ if (is_readable($nom_fichier)) {
 } else {
     die("Error 404: not found!");
 }
+?>
