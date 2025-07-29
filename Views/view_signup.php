@@ -97,5 +97,6 @@
             <button type="submit" class="btn dark">Créer mon compte</button>
         </div>
     </form>
+        <p class="note">* Champs obligatoires</p>
 </div>
 <?php require "view_end.php"; ?>
